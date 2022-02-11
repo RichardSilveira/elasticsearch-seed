@@ -1,0 +1,23 @@
+{
+  "mappings": {
+    "dynamic": false,
+    "properties": {
+      "id": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "firstName": {
+        "type":"text"
+      },
+      "lastName": {
+        "type":"text"
+      }
+    }
+    }
+  }
+}
